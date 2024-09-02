@@ -1,0 +1,61 @@
+%medidas{
+    width: 100%;
+    height: 11rem;
+}
+
+%flexActivacion{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+%carouselItems{
+    width: 100%;
+    height: 14.3rem;
+    border: 2px solid black;
+    margin: 0;
+}
+
+%imgPrincipales{
+    width: 100%;
+    height: 14rem;
+}
+
+%flexImg{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    
+}
+
+%imgContenedores{
+    background-color: rgba(255, 255, 255, 0.747);
+    border: 4px solid rgb(255, 4, 201);
+    width: 18rem;
+    height: 20rem;
+}
+
+%imgProductos{
+    width: 100%;
+    height: 75%;
+}
+
+%textoComponentes{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+%precioComponentes{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+%botonInicio{
+    margin-top: 4rem;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+@mixin headerdetalles ($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin imagenesprimarias ($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin imgContenedores ($background-color,$border,$width,$height){
+    background-color: $background-color;
+    border: $border;
+    width: $width;
+    height: $height;
+}

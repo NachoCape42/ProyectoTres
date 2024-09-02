@@ -1,0 +1,122 @@
+.headerprincipal{
+    background-image: url(../img/PCimagenheader.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    @extend %medidas;
+}
+
+.seccionheader{
+    background-color: rgba(0, 0, 0, 0.534);
+    @extend %medidas;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ h1{
+        color: #ffffffde;
+        margin: 0 auto;
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+
+    .contenedorcomprar{
+        @extend %flexActivacion;
+    }
+    
+    .contenedormarcas{
+    @include headerdetalles(100%,10rem);
+    img{
+        width: 100%;
+        height: 10rem;
+    }
+    }
+.headergpu{
+    h2{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+  
+.borderhead{
+    border-bottom: 2px solid white;
+}
+.headerhome{
+    margin-top: 3rem;
+    text-align: center;
+    a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: $colorSecundario;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:1023px){
+
+    .headerhome{
+        margin-top: 3rem;
+        a{
+            font-size: 2.5rem;
+            color: rgb(22, 151, 61);
+        }
+    }
+
+    .headerprincipal{
+        height: 18rem;
+
+        .seccionheader{
+            height: 18rem;
+
+            h1{
+                color: #ffffffde;
+                margin: 0 auto;
+                font-size: 3rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+        }
+    }
+    .contenedormarcas{
+    height: auto;
+    
+    img{
+        height: 20rem;
+    }
+}
+}
+@media only screen and (min-width:1024px){
+    .headerhome{
+        margin: 7rem;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            font-size: 3rem;
+            color: rgb(122, 70, 165);
+        }
+    }
+
+    .headerprincipal{
+        height: 22rem;
+
+        .seccionheader{
+            height: 22rem;
+
+            h1{
+                color: #ffffffde;
+                margin: 0 auto;
+                font-size: 4rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+        }
+    }
+    .contenedormarcas{
+    height: auto;
+    width: auto;
+    
+    img{
+        width: 100%;
+        height: 30rem;
+    }
+}
+
+}

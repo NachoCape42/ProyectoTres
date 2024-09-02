@@ -1,0 +1,491 @@
+.seccionheader, .headerprincipal {
+  width: 100%;
+  height: 11rem;
+}
+
+.contenedorcomprar, .ContactoFooter ul, .navhardware ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Proxingresos .carousel-item, .Ofertas .carousel-item {
+  width: 100%;
+  height: 14.3rem;
+  border: 2px solid black;
+  margin: 0;
+}
+
+.Proxingresos .carousel-item img, .Ofertas .carousel-item img {
+  width: 100%;
+  height: 14rem;
+}
+
+.contenedorimg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.contenedorimg .placasimagenes {
+  background-color: rgba(255, 255, 255, 0.747);
+  border: 4px solid rgb(255, 4, 201);
+  width: 18rem;
+  height: 20rem;
+}
+
+.contenedorimg .placasimagenes img {
+  width: 100%;
+  height: 75%;
+}
+
+.textoplacas h2 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.textoplacas p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 2rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.iniciopagina {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.navhardware ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 2px solid black;
+}
+.navhardware ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(255, 0, 0);
+}
+
+.ContactoFooter ul {
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.ContactoFooter ul li {
+  text-align: center;
+  margin-top: 1rem;
+}
+.ContactoFooter ul li p {
+  text-align: center;
+}
+.ContactoFooter ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(255, 0, 0);
+  padding: 1rem;
+}
+
+.headerprincipal {
+  background-image: url(../img/PCimagenheader.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.seccionheader {
+  background-color: rgba(0, 0, 0, 0.534);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccionheader h1 {
+  color: rgba(255, 255, 255, 0.8705882353);
+  margin: 0 auto;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contenedormarcas {
+  width: 100%;
+  height: 10rem;
+}
+.contenedormarcas img {
+  width: 100%;
+  height: 10rem;
+}
+
+.headergpu h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.borderhead {
+  border-bottom: 2px solid white;
+}
+
+.headerhome {
+  margin-top: 3rem;
+  text-align: center;
+}
+.headerhome a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+  .headerhome {
+    margin-top: 3rem;
+  }
+  .headerhome a {
+    font-size: 2.5rem;
+    color: rgb(22, 151, 61);
+  }
+  .headerprincipal {
+    height: 18rem;
+  }
+  .headerprincipal .seccionheader {
+    height: 18rem;
+  }
+  .headerprincipal .seccionheader h1 {
+    color: rgba(255, 255, 255, 0.8705882353);
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .contenedormarcas {
+    height: auto;
+  }
+  .contenedormarcas img {
+    height: 20rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .headerhome {
+    margin: 7rem;
+  }
+  .headerhome a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(122, 70, 165);
+  }
+  .headerprincipal {
+    height: 22rem;
+  }
+  .headerprincipal .seccionheader {
+    height: 22rem;
+  }
+  .headerprincipal .seccionheader h1 {
+    color: rgba(255, 255, 255, 0.8705882353);
+    margin: 0 auto;
+    font-size: 4rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .contenedormarcas {
+    height: auto;
+    width: auto;
+  }
+  .contenedormarcas img {
+    width: 100%;
+    height: 30rem;
+  }
+}
+.bkmain {
+  background-color: rgb(0, 0, 0);
+}
+
+.navhardware {
+  background-color: rgb(255, 255, 255);
+}
+
+.Nosotros h2 {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+.Nosotros p {
+  color: white;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contenedorcarusel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 5rem;
+}
+
+.carousel-indicators {
+  margin: 0;
+}
+
+.Ofertas {
+  background-color: rgba(117, 5, 5, 0.301);
+  width: 20rem;
+  height: 16.5rem;
+}
+.Ofertas h2 {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.Proxingresos {
+  background-color: rgba(0, 0, 255, 0.301);
+  margin-top: 0;
+  width: 20rem;
+  height: 16.5rem;
+}
+.Proxingresos h2 {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.bodybk {
+  background-color: rgb(0, 0, 0);
+}
+
+.contenedorimg {
+  margin-top: 3rem;
+}
+.textoplacas button {
+  margin: 0;
+  border-radius: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+}
+.textoplacas .contenedorcomprar {
+  text-align: center;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+  .contenedorimg {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .contenedorimg .placasimagenes {
+    background-color: rgba(255, 255, 255, 0.747);
+    border: 4px solid rgb(255, 4, 201);
+    width: 20rem;
+    height: 25rem;
+  }
+  .contenedorimg .placasimagenes img {
+    width: 100%;
+    height: 75%;
+  }
+  .textoplacas h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .textoplacas p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .textoplacas button {
+    border-radius: 0.5rem;
+  }
+  .navhardware ul li a {
+    color: rgb(22, 151, 61);
+    font-size: 2rem;
+  }
+  .Nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  .Nosotros h2 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+  }
+  .Nosotros p {
+    width: 25rem;
+    height: 22rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .contenedorcarusel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 7rem;
+  }
+  .contenedorcarusel .Ofertas {
+    background-color: rgba(117, 5, 5, 0.301);
+    width: 70%;
+    height: 23rem;
+  }
+  .contenedorcarusel .Ofertas .carousel-inner {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .contenedorcarusel .Ofertas .carousel-item {
+    width: 80%;
+    height: 18rem;
+  }
+  .contenedorcarusel .Ofertas .carousel-item img {
+    width: 90%;
+    height: 100%;
+  }
+  .contenedorcarusel .Proxingresos {
+    background-color: rgba(0, 0, 255, 0.301);
+    width: 70%;
+    height: 23rem;
+  }
+  .contenedorcarusel .Proxingresos .carousel-inner {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .contenedorcarusel .Proxingresos .carousel-item {
+    width: 80%;
+    height: 18rem;
+  }
+  .contenedorcarusel .Proxingresos .carousel-item img {
+    width: 90%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contenedorimg {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .contenedorimg .placasimagenes {
+    background-color: rgba(255, 255, 255, 0.747);
+    border: 4px solid rgb(255, 4, 201);
+    width: 20rem;
+    height: 27rem;
+  }
+  .contenedorimg .placasimagenes img {
+    width: 100%;
+    height: 75%;
+  }
+  .textoplacas h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .textoplacas p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .textoplacas button {
+    border-radius: 0.5rem;
+  }
+  .navhardware ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgb(122, 70, 165);
+  }
+  .Nosotros {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  .Nosotros h2 {
+    margin: 0 auto;
+    font-size: 3rem;
+  }
+  .Nosotros p {
+    width: 35rem;
+    height: 18rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .contenedorcarusel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 7rem;
+  }
+  .contenedorcarusel .Ofertas {
+    background-color: rgba(117, 5, 5, 0.301);
+    width: 50%;
+    height: auto;
+  }
+  .contenedorcarusel .Ofertas .carousel-inner {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .contenedorcarusel .Ofertas .carousel-item {
+    width: 80%;
+    height: 25rem;
+  }
+  .contenedorcarusel .Ofertas .carousel-item img {
+    width: 95%;
+    height: 100%;
+  }
+  .contenedorcarusel .Proxingresos {
+    background-color: rgba(0, 0, 255, 0.301);
+    width: 50%;
+    height: auto;
+  }
+  .contenedorcarusel .Proxingresos .carousel-inner {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .contenedorcarusel .Proxingresos .carousel-item {
+    width: 80%;
+    height: 25rem;
+  }
+  .contenedorcarusel .Proxingresos .carousel-item img {
+    width: 95%;
+    height: 100%;
+  }
+}
+.ContactoFooter {
+  margin: 0 auto;
+  background-color: rgb(117, 117, 117);
+  border: 2px solid black;
+  margin-top: 3rem;
+}
+.ContactoFooter p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=styles.css.map */
